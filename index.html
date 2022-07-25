@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Felipe Guedes" />
+    <title>Atividade principal 21 </title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body onload="dados()" id="body">
+    <header>
+        <div class="container">
+            <h1>Atividade principal 21: Comentários de usuários.</h1>
+            <hr />
+            <form onsubmit="return false;">
+                <div>
+                    <label>Cor do texto:</label><br />
+                    <input type="color" id="cor-texto" value="#16161d" />
+                </div>
+                <div>
+                    <label>Cor do fundo:</label><br />
+                    <input type="color" id="cor-fundo" value="#ffffff"/>
+                </div>
+                <div>
+                    <label> Tamanho do texto:</label><br />
+                    <input type="number" id="tamanho-texto" value="12" />
+                </div>
+                <div class="btn-alterar">
+                    <button onclick="alterarCss();">Alterar</button>
+                </div>
+            </form>
+            <hr />
+
+            <div class="container">
+                <form onsubmit="return false;">
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" id="nome" placeholder="Insira aqui o seu nome.">
+                        <br><br>
+                        <label>Comentário:</label>
+                        <input type="text" id="comentario" placeholder="Insira o seu comentário aqui." /><br /><br />
+                        <button onclick="dados();">Enviar</button>
+                    </div>
+                </form>
+                <hr>
+                <!-- resultado do comentário -->
+                <div id="result"><label></label></div>
+
+            </div>
+            <hr />
+        </div>
+    </header>
+    <main>
+            
+        <div class="container">
+            <h2>Atividade principal 21: Comentários de usuários.</h2>
+
+            
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatem suscipit optio ratione officia in ducimus. Nobis placeat dicta consequatur tempora, sint nisi? Dicta deleniti cumque maxime pariatur, quisquam atque!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eligendi, soluta suscipit exercitationem nobis voluptates quae esse, provident quaerat recusandae ut quo omnis. Quis, ex dignissimos quae cum vero nihil.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa quae veritatis veniam harum eaque voluptatum sit quo eos accusamus sunt dicta doloribus, beatae neque quaerat ducimus exercitationem repudiandae consequuntur!
+            </p>
+        </div>
+    </main>
+    <script src="scrpit.js"></script>
+</body>
+</html>

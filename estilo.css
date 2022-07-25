@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16161d;
+}
+
+.btn-alterar {
+    align-items: center;
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #f00 ;
+    color: #fff;
+    border: 1px outset #ccc;
+}
+
+button:hover {
+    background-color: #050;
+    box-shadow: 5px 5px 10px #aaa;
+}
+
+.container {
+    margin: 50px 100px;
+}
+
+.container form {
+    display: flex;
+    justify-content: left;
+}
+
+.container form div {
+    padding: 15px 30px;    
+}
+
+.container input {
+    box-sizing: border-box 50px 100px;
+}
+
+/* barrinhas que dividem os botões*/
+.container form div:not(:last-child) {
+    border-right: 1px inset #aaa;
+}
+
+#tamanho-texto {
+    width: 40px;
+}
+
